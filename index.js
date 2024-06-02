@@ -66,7 +66,7 @@ function computerChoice(choice) {
     }
     else if (choice == "scissor" && randomChoiceMade == "paper") {
       userPoints+=1;
-      resultHeading.textContent = `Use Won!`;
+      resultHeading.textContent = `User Won!`;
       userScore.innerText = `User Score is ${userPoints}`;
       compScore.innerText = `Computer Score is ${computerPoints}`;
     }
