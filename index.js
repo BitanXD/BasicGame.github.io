@@ -71,7 +71,7 @@ function computerChoice(choice) {
       compScore.innerText = `Computer Score is ${computerPoints}`;
     }
     else if (choice == "paper" && randomChoiceMade == "stone") {
-      computerPoints+=1;
+      userPoints+=1;
       resultHeading.textContent = `Computer Won!`;
       userScore.innerText = `User Score is ${userPoints}`;
       compScore.innerText = `Computer Score is ${computerPoints}`;
