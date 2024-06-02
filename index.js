@@ -48,26 +48,31 @@ function computerChoice(choice) {
     } 
     else if (choice == "stone" && randomChoiceMade == "paper") {
       computerPoints+=1;
+      resultHeading.textContent = `User won!`;
       userScore.innerText = `User Score is ${userPoints}`;
       compScore.innerText = `Computer Score is ${computerPoints}`;
     }
     else if (choice == "stone" && randomChoiceMade == "scissor") {
       userPoints+=1;
+      resultHeading.textContent = `User Won!`;
       userScore.innerText = `User Score is ${userPoints}`;
       compScore.innerText = `Computer Score is ${computerPoints}`;
     }
     else if (choice == "paper" && randomChoiceMade == "scissor") {
       computerPoints+=1;
+      resultHeading.textContent = `Computer won!`;
       userScore.innerText = `User Score is ${userPoints}`;
       compScore.innerText = `Computer Score is ${computerPoints}`;
     }
     else if (choice == "scissor" && randomChoiceMade == "paper") {
       userPoints+=1;
+      resultHeading.textContent = `Use Won!`;
       userScore.innerText = `User Score is ${userPoints}`;
       compScore.innerText = `Computer Score is ${computerPoints}`;
     }
     else if (choice == "paper" && randomChoiceMade == "stone") {
       computerPoints+=1;
+      resultHeading.textContent = `Computer Won!`;
       userScore.innerText = `User Score is ${userPoints}`;
       compScore.innerText = `Computer Score is ${computerPoints}`;
     }
