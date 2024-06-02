@@ -1,0 +1,51 @@
+.box{
+    /* display: flex; */
+    background-color: rgb(241, 164, 164);
+    /* height: 200px;
+    width: 200px; */
+    margin: 15px;
+}
+
+.image{
+    opacity: 0.8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.on-click{
+    background-color: rgb(203, 45, 45);
+}
+
+.result-img{
+    border: 1px solid black;
+    
+}
+
+.score{
+    justify-content: space-between;
+}
+
+/* .before-select{
+    visibility: hidden;
+}
+
+.after-select{
+    visibility: 1;
+} */
+
+
+#game-result{
+    border: 2px solid black;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+#game-score{
+    border: 2px solid black;
+    height: 200px;
+    background-color:cornflowerblue;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
